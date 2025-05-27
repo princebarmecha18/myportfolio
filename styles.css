@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(12,12,12);
+    color:white;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+nav p{
+    font-size: 36px;
+    margin: auto 53px;
+}
+nav ul{
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    display: flex;
+    gap: 54px;
+    margin-left: auto;
+}
+
+nav li a{
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.about {
+    text-align: center;
+}
+.about img{
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    margin: 75px auto;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 70px;
+}
+.about h1{
+    margin-top: 0px;
+    font-size: 96px;
+}
+.about p{
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+.about button{
+    border-radius:20px;
+    width: 220px;
+    height: 50px;
+    margin:50px 200px;
+}
+
+.experience{
+    text-align: center;
+}
+.experience h1{
+    font-size: 64px;
+}
+.skill-container {
+    margin-top:67px;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.skill-box{
+    width:100px;
+    height:100px;
+    margin: 0px 14px;
+    background-color: aliceblue;
+}
+
+
+.projects{
+    margin: 0 auto;
+}
+.projects h1{
+    text-align: center;
+    font-size: 64px;
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 195px;
+}
+.project-box {
+    width: 420px;
+    height: 240px;
+    background-color: rgb(33, 33, 33);
+}
+.project-box img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+.project-box p{
+    font-size: 24px;
+    margin-top:12px;
+    margin-left: 13px;
+}
+
+.education h1{
+    text-align: center;
+    font-size: 64px;
+}
+.education-info{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.education img{
+    margin-left: 105px;
+    width: 64px;
+    height: 64px;
+}
+.education-info h3{
+    margin: 0;
+    font-size: 40px;
+}
+
+.contact h1{
+    text-align: left;
+    font-size: 64px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+.contact-box {
+    width: 100px;
+    height: 100px;
+}
