@@ -135,7 +135,7 @@ nav li a{
     flex-direction: row;
     gap: 23px;
 }
-.contact-box {
+.contact-box img {
     width: 100px;
     height: 100px;
 }
