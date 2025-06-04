@@ -1,104 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>My PortFolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prince Bermecha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia+Glaze:wght@100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
+
 <body>
-    <nav>
-        <p>PRINCE</p>
-        <ul>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">EDUCATION</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
-
-    <div class="about">
-        <img src="image-asset/pfp.jpg" alt="pfp">
-        <h1>PRINCE BERMECHA</h1>
-        <p> Dedicated college student passionate about technology, with a strong academic record and a drive for creative problem-solving. Skilled in applying technical knowledge to real-world challenges and collaborating on innovative solutions. Eager to learn, grow, and contribute in team-driven environments.</p>
-        <button>GET IN TOUCH</button>
-        <button>RESUME</button>
-    </div>
-
-    <div class="experience">
-        <h1>EXPERIENCE IN</h1>
-        <div class="skill-container">
-
-            <div class="skill-box">
-                <img>
-            </div>
-            <div class="skill-box">
-                <img>
-            </div>
-            <div class="skill-box">
-                <img>
-            </div>
-            <div class="skill-box">
-                <img>
-            </div>
-            <div class="skill-box">
-                <img>
-            </div>
-            <div class="skill-box">
-                <img>
-            </div>
-            
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">PRINCE</a>
         </div>
-    </div>
-
-    <div class="projects">
-        <h1>PROJECTS</h1>
-        <div class="project-container">
-            <div class="project-box">
-                <img src="image-asset/IMG_20250510_225135_252.jpg">
-                <p>Project Name</p>
-            </div>
-
-            <div class="project-box">
-                <img src="image-asset/IMG_20250510_225135_252.jpg">
-                <p>Project Name</p>
-            </div>
-
+        <nav class="nav-links" id="navLinks">
+            <a href="#projects-section">Projects</a>
+            <a href="#contact-section">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            ☰
         </div>
-    </div>
+    </header>
 
-    <div class="education">
-        <h1>EDUCATION</h1>
-        <div class="education-info">
-            <img src="image-asset/AMJ-college-logo-White-150x150.png" alt="college-logo">
-            <h3>AGURCHAND MANMULL JAIN COLLEGE                                     2023-2026</h3>
-            <!-- <p>Participated in numerous coding competitions. Ranked in Top 5% of the class. Member and Vice President of Coders Club</p> -->
+    <header class="hero">
+        <div class="profile-pic">
+            <img src="image-asset/pfp.jpg">
         </div>
-    </div>
+        <h1 class="name">PRINCE BERMECHA</h1>
+        <p class="bio">
+            Dedicated college student passionate about technology, with a strong academic record and a drive for
+            creative problem-solving. Skilled in applying technical knowledge to real-world challenges and collaborating
+            on innovative solutions. Eager to learn, grow, and contribute in team-driven environments.
+        </p>
+        <div class="buttons">
+            <a href="mailto:princebarmecha18@gmail.com" class="btn">Get in Touch</a>
+            <a href="#" class="btn-outline">Resume</a>
+        </div>
+    </header>
 
+    <section class="experience-section">
+        <h2>Experience In</h2>
+        <div class="experience-icons">
+            <div class="exp-icon">
+                <i class="devicon-python-plain-wordmark colored"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-django-plain-wordmark"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-jupyter-plain-wordmark colored"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-pandas-plain-wordmark"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-html5-plain colored"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-css3-plain colored"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-bash-plain"></i>
+            </div>
+            <div class="exp-icon">
+                <i class="devicon-figma-plain"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-thumbnail">
+                    <a href="https://github.com/princebarmecha18/EmAI-Emotion-Analyzer-">
+                        <img src="image-asset/IMG_20250510_225135_252.jpg">
+                    </a>
+                </div>
+                <div class="project-title">EmAI</div>
+            </div>
+<!--
+            <div class="project-card">
+                <div class="project-thumbnail"></div>
+                <div class="project-title">Project Name</div>
+            </div>
+        </div>
+-->
+    </section>
+
+    <section class="education-section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="edu-icon">
+                <img src="image-asset/AMJ-college-logo-White-150x150.png">
+            </div>
+            <div>
+                <p class="edu-title">AGURCHAND MANMULL JAIN COLLEGE <span class="duration">2023 - 2026</span></p>
+                <p class="edu-bio">
+                    Participated in numerous coding competitions. Ranked in Top 5% of the class. Member and Vice
+                    President of Coders Club.
+                </p>
+            </div>
+        </div>
+    </section>
     <footer>
-        <div class="contact">
-            <h1>CONTACT</h1>
-            <div class="contact-container">
-                <div class="contact-box">
-                    <a href="mailto:23h205@amjaincollege.edu.in" target="_blank">
-                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon">
+        <section class="contact-section" id="contact-section">
+            <h2>Contact</h2>
+            <div class="contact-icons">
+                <div class="contact-icon">
+                    <a href="https://www.linkedin.com/in/prince-bermecha-a53b82276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <i class="devicon-linkedin-plain-wordmark"></i>
                     </a>
                 </div>
-                <div class="contact-box"> 
-                    <a href="https://www.linkedin.com/in/prince-bermecha-a53b82276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="icon">
+                <div class="contact-icon">
+                    <a href="https://github.com/princebarmecha18">
+                    <i class="devicon-github-original-wordmark"></i>
                     </a>
-                </div>
-                <div class="contact-box"> 
-                    <a href="https://github.com/princebarmecha18" target="_blank">
-                        <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub" class="icon">
-                    </a>
-                </div>
-
                 </div>
             </div>
-        </div>
+        </section>
+        <p>&copy; 2025 Prince Bermecha. All rights reserved.</p>
     </footer>
-    
 </body>
+
 </html>
